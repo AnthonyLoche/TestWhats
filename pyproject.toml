@@ -1,0 +1,19 @@
+[project]
+name = "TestWhats"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "AnthonyLoche", email = "anthonylocheifc@gmail.com"},
+]
+dependencies = ["django>=6.0.3"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pdm]
+distribution = true
