@@ -5,7 +5,7 @@ from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
 
-VERIFY_TOKEN = "EAANO0hU2hPUBQZCY6829CrckyRF4AYEAawYpVCoXmL3wg6sX8QcULZAtdGlgzHZCouKLNGivDf9IZAUpwWloqcs4ZAandgasQKnbeSgDSxDYod46op4AMy5fc4RH3o4ZAyvBuvMtjZA6lSA6FKenjmGNKRDUW1CJ6qknvvK72R9I4TZCXyNPCIx9ZCDlpIvV9DoJ6KZBGuIXU2mtEROIQLtgRoGu137OcG2VG19k745hQADof6H7ic5pCNUZCmx1r63icahPpOu4lrJF97odVxtCIsX"
+VERIFY_TOKEN = "rexy_webhook_2024"
 
 @csrf_exempt
 def whatsapp_webhook(request):
